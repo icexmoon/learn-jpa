@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c4108f8-8b98-4bdd-8fa2-7a66e3da0d12" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="33YNerwYyarx5XWdztJUREKEtaP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.EntityManagerFactoryTests.testCreateEntityManager.executor": "Run",
+    "JUnit.EntityManagerTests.testContains.executor": "Run",
+    "JUnit.EntityManagerTests.testFind.executor": "Run",
+    "JUnit.EntityManagerTests.testFlush.executor": "Run",
+    "JUnit.EntityManagerTests.testGetReference.executor": "Run",
+    "JUnit.EntityManagerTests.testGetReferenceException.executor": "Run",
+    "JUnit.EntityManagerTests.testMerge1.executor": "Run",
+    "JUnit.EntityManagerTests.testMerge2.executor": "Run",
+    "JUnit.EntityManagerTests.testMerge3.executor": "Run",
+    "JUnit.EntityManagerTests.testMerge4.executor": "Run",
+    "JUnit.EntityManagerTests.testPersistence.executor": "Run",
+    "JUnit.EntityManagerTests.testPersistenceException.executor": "Run",
+    "JUnit.EntityManagerTests.testRefresh.executor": "Run",
+    "JUnit.EntityManagerTests.testRemove.executor": "Run",
+    "JUnit.EntityManagerTests.testRemoveException.executor": "Run",
+    "JUnit.PersistenceTests.testCreateEntityManagerFactory.executor": "Run",
+    "JUnit.PersistenceTests.testCreateEntityManagerFactory2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace/learn-jpa/ch2/demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propCompiler",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Main.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora_aws",
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.EntityManagerTests.testContains">
+    <configuration name="EntityManagerTests.testContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.icexmoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.icexmoon" />
+      <option name="MAIN_CLASS_NAME" value="cn.icexmoon.EntityManagerTests" />
+      <option name="METHOD_NAME" value="testContains" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityManagerTests.testFlush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.icexmoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.icexmoon" />
+      <option name="MAIN_CLASS_NAME" value="cn.icexmoon.EntityManagerTests" />
+      <option name="METHOD_NAME" value="testFlush" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityManagerTests.testMerge3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.icexmoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.icexmoon" />
+      <option name="MAIN_CLASS_NAME" value="cn.icexmoon.EntityManagerTests" />
+      <option name="METHOD_NAME" value="testMerge3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityManagerTests.testMerge4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.icexmoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.icexmoon" />
+      <option name="MAIN_CLASS_NAME" value="cn.icexmoon.EntityManagerTests" />
+      <option name="METHOD_NAME" value="testMerge4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityManagerTests.testRefresh" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.icexmoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.icexmoon" />
+      <option name="MAIN_CLASS_NAME" value="cn.icexmoon.EntityManagerTests" />
+      <option name="METHOD_NAME" value="testRefresh" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EntityManagerTests.testContains" />
+        <item itemvalue="JUnit.EntityManagerTests.testRefresh" />
+        <item itemvalue="JUnit.EntityManagerTests.testFlush" />
+        <item itemvalue="JUnit.EntityManagerTests.testMerge4" />
+        <item itemvalue="JUnit.EntityManagerTests.testMerge3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19416.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19416.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="0c4108f8-8b98-4bdd-8fa2-7a66e3da0d12" name="更改" comment="" />
+      <created>1759490144653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759490144653</updated>
+      <workItem from="1759490145738" duration="7163000" />
+      <workItem from="1759631498487" duration="8511000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
