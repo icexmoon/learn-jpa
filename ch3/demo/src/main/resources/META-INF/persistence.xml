@@ -1,0 +1,27 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+    <persistence-unit name="jpa-demo" transaction-type="RESOURCE_LOCAL">
+        <!-- 指定ORM框架实现了 PersistenceProvider 接口的实现类 -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>cn.icexmoon.entity.Customer</class>
+        <class>cn.icexmoon.entity.Order</class>
+        <class>cn.icexmoon.entity.Child</class>
+        <class>cn.icexmoon.entity.Toy</class>
+        <class>cn.icexmoon.entity.Car</class>
+        <class>cn.icexmoon.entity.Person</class>
+        <class>cn.icexmoon.entity.o2o.Department</class>
+        <class>cn.icexmoon.entity.o2o.Manager</class>
+        <class>cn.icexmoon.entity.m2m.Student</class>
+        <class>cn.icexmoon.entity.m2m.Course</class>
+        <properties>
+            <!-- 数据库连接设置 -->
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa" />
+            <property name="jakarta.persistence.jdbc.user" value="root" />
+            <property name="jakarta.persistence.jdbc.password" value="mysql" />
+            <!-- ORM 框架设置 -->
+            <property name="hibernate.hbm2ddl.auto" value="update" />
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.format_sql" value="true" />
+        </properties>
+    </persistence-unit>
+</persistence>
