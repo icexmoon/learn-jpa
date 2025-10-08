@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<fenixs namespace="cn.icexmoon.demo.repository.BlogRepository">
+    <fenix id="queryBlogs">
+        select b
+        from Blog as b
+        where
+        1=1
+        <andLike field="b.title" pattern="@{blog.title}%" match="blog.title!=empty"/>
+        <andLike field="b.author" value="blog.author" match="blog.author!=empty"/>
+        <andBetween field="b.createTime" start="blog.createTime" end="blog.updateTime" match="(?blog.createTime != empty) || (?blog.updateTime != empty)"/>
+    </fenix>
+<!--    <fenix id="queryBlogs">-->
+<!--        select b-->
+<!--        from Blog as b-->
+<!--        where-->
+<!--        1=1-->
+<!--        @if{?blog.title != empty}-->
+<!--            AND b.title like concat('%',#{blog.title},'%')-->
+<!--        @end{}-->
+<!--        @if{?blog.author != empty}-->
+<!--            AND b.author like concat('%',#{blog.author},'%')-->
+<!--        @end{}-->
+<!--        @if{(?blog.createTime != empty) || (?blog.updateTime != empty)}-->
+<!--            AND (b.createTime between #{blog.createTime} and #{blog.updateTime})-->
+<!--        @end{}-->
+<!--    </fenix>-->
+    <fenix id="queryBlogsTotal">
+        select count(*)
+        from Blog as b
+        where
+        1=1
+        <andLike field="b.title" value="blog.title" match="blog.title!=empty"/>
+        <andLike field="b.author" value="blog.author" match="blog.author!=empty"/>
+        <andBetween field="b.createTime" start="blog.createTime" end="blog.updateTime" match="(?blog.createTime != empty) || (?blog.updateTime != empty)"/>
+    </fenix>
+</fenixs>

@@ -1,0 +1,20 @@
+# mysql 数据库连接配置
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/jpa?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&tinyInt1isBit=false&allowLoadLocalInfile=true&allowUrlInLocalInfile=true&allowMultiQueries=true&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Shanghai
+        username: root
+        password: mysql
+        driver-class-name: com.mysql.cj.jdbc.Driver
+    # 设置应用启动时 jpa 更新表结构
+    jpa:
+        generate-ddl: true
+        show-sql: true
+fenix:
+    # 对 XML 中的 SQL 动态读取，修改 XML 后无需重启服务，生产环境需要关闭
+    debug: true
+    # 启动时打印 banner
+    print-banner: true
+    # 是否打印 Fenix 生成的 SQL 信息
+    print-sql: true
+    # 扫描 Fenix XML 文件的所在位置，默认是 fenix 目录及子目录，可以用 yaml 文件方式配置多个值.
+    xml-locations: fenix
