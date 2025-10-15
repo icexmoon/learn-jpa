@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<fenixs namespace="cn.icexmoon.demo.repository.EmployeeRepository">
+    <fenix id="queryEmployees">
+        select e
+        from Employee as e
+        where
+        1=1
+        @if{employee.name!=empty || employee.email!=empty}
+            @if{employee.name!=empty}
+                and e.name like #{employee.name}
+            @end{}
+            @if{employee.email!=empty}
+                and e.email like #{employee.email}
+            @end{}
+        @else{}
+            <!-- 如果检索条件不包含用户名和邮箱，不返回任何数据 -->
+            and 1=0
+        @end{}
+    </fenix>
+</fenixs>

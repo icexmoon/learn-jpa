@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<fenixs namespace="cn.icexmoon.demo.repository.OrderRepository">
+    <fenix id="pageAll">
+        select o
+        from Order as o
+        where
+            <regionAuth field="regionCode" userId="#{uid}"/>
+    </fenix>
+</fenixs>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<fenixs namespace="cn.icexmoon.demo.repository.RegionRepository">
+    <fenix id="getAll">
+        select r.code as region_code,
+        r.name as name
+        from tb_region as r
+    </fenix>
+</fenixs>

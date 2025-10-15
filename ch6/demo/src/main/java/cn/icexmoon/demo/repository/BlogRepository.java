@@ -10,6 +10,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;
+import java.util.Set;
 
 /**
  * @ClassName BlogRepository
@@ -20,7 +21,7 @@ import java.util.List;
  */
 public interface BlogRepository extends JpaRepository<Blog, Long>, FenixJpaSpecificationExecutor<Blog> {
     @QueryFenix(countQuery = "queryBlogsTotal")
-    Page<Blog> queryBlogs(@Param("blog") Blog blog, Pageable pageable);
+    Page<Blog> queryBlogs(@Param("ids") Set<Long> ids, @Param("blog") Blog blog, Pageable pageable);
 
     @QueryFenix(provider = BlogSqlProvider.class)
     List<Blog> queryBlogsWithProvider(@Param("blog") Blog blog);

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<fenixs namespace="BlogRepositoryFragment">
+    <fenix id="whereFragment">
+        <trimWhere>
+            <andLike field="b.title" value="blog.title" match="blog.title!=empty"/>
+            <andLike field="b.author" value="blog.author" match="blog.author!=empty"/>
+            <andBetween field="b.createTime" start="blog.createTime" end="blog.updateTime"
+                        match="(?blog.createTime != empty) || (?blog.updateTime != empty)"/>
+        </trimWhere>
+    </fenix>
+</fenixs>

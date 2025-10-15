@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<fenixs namespace="cn.icexmoon.demo.repository.UserRepository">
+    <fenix id="updateUser">
+        update User as u
+        set u.name = #{user.name}
+        ,u.age = #{user.age}
+        @if{user.ageRange!=empty}
+        ,u.ageRange = #{user.ageRange}
+        @else{}
+        ,u.ageRange =
+        <choose when="?user.age==empty" then="null"
+                when2="?user.age>60" then2="'老年'"
+                when3="?user.age>35" then3="'中年'"
+                when4="?user.age>20" then4="'青年'"
+                when5="?user.age>10" then5="'少年'"
+                else="'幼年'"/>
+        @end{}
+        where u.id = #{user.id}
+    </fenix>
+    <fenix id="updateUserNotNull">
+        update User
+        <set field="age" value="user.age" match="?user.age!=empty"
+            field2="age_range" value2="user.ageRange" match2="?user.ageRange!=empty"
+            field3="name" value3="user.name" match3="?user.name!=empty"/>
+        where id = #{user.id}
+    </fenix>
+</fenixs>

@@ -12,9 +12,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 /**
  * @ClassName BlogRepositoryTests
@@ -34,8 +32,12 @@ public class BlogRepositoryTests {
         final int PAGE_SIZE = 5;
         Pageable pageable = PageRequest.of(PAGE_NUM - 1, PAGE_SIZE);
         Blog blog = new Blog();
-        blog.setTitle("NuS");
-        Page<Blog> blogPage = blogRepository.queryBlogs(blog, pageable);
+        blog.setTitle("a");
+//        blog.setAuthor("DD");
+//        blog.setCreateTime(DateUtil.parse("2025-7-01 00:00:00"));
+//        blog.setUpdateTime(DateUtil.parse("2025-8-31 23:59:59"));
+        Set<Long> ids = new HashSet<>(Set.of(1L, 2L, 3L));
+        Page<Blog> blogPage = blogRepository.queryBlogs(ids, blog, pageable);
         System.out.println("总行数：" + blogPage.getTotalElements());
         System.out.println("总页数：" + blogPage.getTotalPages());
         System.out.println("当前页数据：" + blogPage.getContent());
