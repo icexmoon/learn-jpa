@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c4108f8-8b98-4bdd-8fa2-7a66e3da0d12" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/src/main/java/cn/icexmoon/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch2/demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch2/demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch2/demo/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch2/demo/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch7/hibernate-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/workspace/learn-jpa/ch1/demo",
+    "last_opened_file_path": "D:/workspace/learn-jpa/ch2/demo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -110,7 +105,7 @@
       <updated>1759490144653</updated>
       <workItem from="1759490145738" duration="7163000" />
       <workItem from="1759631233938" duration="880000" />
-      <workItem from="1761372626527" duration="1816000" />
+      <workItem from="1761372626527" duration="2080000" />
     </task>
     <servers />
   </component>
