@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c4108f8-8b98-4bdd-8fa2-7a66e3da0d12" name="更改" comment="" />
+    <list default="true" id="0c4108f8-8b98-4bdd-8fa2-7a66e3da0d12" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../../ch1/demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch1/demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/icexmoon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/icexmoon/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch7/hibernate-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,49 +44,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.EntityManagerFactoryTests.testCreateEntityManager.executor": "Run",
-    "JUnit.EntityManagerTests.testContains.executor": "Run",
-    "JUnit.EntityManagerTests.testFind.executor": "Run",
-    "JUnit.EntityManagerTests.testFlush.executor": "Run",
-    "JUnit.EntityManagerTests.testGetReference.executor": "Run",
-    "JUnit.EntityManagerTests.testGetReferenceException.executor": "Run",
-    "JUnit.EntityManagerTests.testMerge1.executor": "Run",
-    "JUnit.EntityManagerTests.testMerge2.executor": "Run",
-    "JUnit.EntityManagerTests.testMerge3.executor": "Run",
-    "JUnit.EntityManagerTests.testMerge4.executor": "Run",
-    "JUnit.EntityManagerTests.testPersistence.executor": "Run",
-    "JUnit.EntityManagerTests.testPersistenceException.executor": "Run",
-    "JUnit.EntityManagerTests.testRefresh.executor": "Run",
-    "JUnit.EntityManagerTests.testRemove.executor": "Run",
-    "JUnit.EntityManagerTests.testRemoveException.executor": "Run",
-    "JUnit.PersistenceTests.testCreateEntityManagerFactory.executor": "Run",
-    "JUnit.PersistenceTests.testCreateEntityManagerFactory2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/workspace/learn-jpa/ch2/demo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.EntityManagerFactoryTests.testCreateEntityManager.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntityManagerTests.testContains.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntityManagerTests.testFind.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntityManagerTests.testFlush.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntityManagerTests.testGetReference.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntityManagerTests.testGetReferenceException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntityManagerTests.testMerge1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntityManagerTests.testMerge2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntityManagerTests.testMerge3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntityManagerTests.testMerge4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntityManagerTests.testPersistence.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntityManagerTests.testPersistenceException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntityManagerTests.testRefresh.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntityManagerTests.testRemove.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntityManagerTests.testRemoveException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersistenceTests.testCreateEntityManagerFactory.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersistenceTests.testCreateEntityManagerFactory2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace/learn-jpa/ch2/demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql_aurora_aws",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora_aws&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.EntityManagerTests.testContains">
+}</component>
+  <component name="RunManager" selected="应用程序.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.icexmoon.Main" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.icexmoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EntityManagerTests.testContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
@@ -105,22 +127,6 @@
       <option name="PACKAGE_NAME" value="cn.icexmoon" />
       <option name="MAIN_CLASS_NAME" value="cn.icexmoon.EntityManagerTests" />
       <option name="METHOD_NAME" value="testFlush" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EntityManagerTests.testMerge3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.icexmoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.icexmoon" />
-      <option name="MAIN_CLASS_NAME" value="cn.icexmoon.EntityManagerTests" />
-      <option name="METHOD_NAME" value="testMerge3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Main" />
         <item itemvalue="JUnit.EntityManagerTests.testContains" />
         <item itemvalue="JUnit.EntityManagerTests.testRefresh" />
         <item itemvalue="JUnit.EntityManagerTests.testFlush" />
         <item itemvalue="JUnit.EntityManagerTests.testMerge4" />
-        <item itemvalue="JUnit.EntityManagerTests.testMerge3" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +191,8 @@
       <option name="presentableId" value="Default" />
       <updated>1759490144653</updated>
       <workItem from="1759490145738" duration="7163000" />
-      <workItem from="1759631498487" duration="8511000" />
+      <workItem from="1759631498487" duration="9277000" />
+      <workItem from="1761374747037" duration="2342000" />
     </task>
     <servers />
   </component>

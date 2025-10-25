@@ -1,10 +1,10 @@
 package cn.icexmoon;
 
 import cn.icexmoon.entity.Customer;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.EntityTransaction;
-import jakarta.persistence.Persistence;
+import jakarta.persistence.*;
+import org.hibernate.cfg.JdbcSettings;
+import org.hibernate.jpa.HibernatePersistenceConfiguration;
+import org.hibernate.tool.schema.Action;
 
 import java.time.LocalDate;
 import java.time.ZoneId;
@@ -22,7 +22,10 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("jpa-demo");
+//        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("jpa-demo");
+//        EntityManagerFactory entityManagerFactory = getEntityManagerFactory();
+//        EntityManagerFactory entityManagerFactory = getEntityManagerFactory2();
+        EntityManagerFactory entityManagerFactory = getEntityManagerFactory3();
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         EntityTransaction transaction = entityManager.getTransaction();
         transaction.begin();
@@ -37,5 +40,44 @@ public class Main {
         transaction.commit();
         entityManager.close();
         entityManagerFactory.close();
+    }
+
+    /**
+     * 用编程的方式创建 EntityManagerFactory
+     * @return
+     */
+    private static EntityManagerFactory getEntityManagerFactory(){
+        return new PersistenceConfiguration("jpa-demo")
+                .managedClass(Customer.class)
+                .property(PersistenceConfiguration.JDBC_DRIVER,"com.mysql.cj.jdbc.Driver")
+                .property(PersistenceConfiguration.JDBC_URL, "jdbc:mysql://localhost:3306/jpa")
+                .property(PersistenceConfiguration.JDBC_USER, "root")
+                .property(PersistenceConfiguration.JDBC_PASSWORD, "mysql")
+                .property(PersistenceConfiguration.SCHEMAGEN_DATABASE_ACTION, Action.ACTION_UPDATE)
+                .property(JdbcSettings.SHOW_SQL, true)
+                .property(JdbcSettings.FORMAT_SQL, true)
+                .property(JdbcSettings.HIGHLIGHT_SQL, true)
+                .createEntityManagerFactory();
+    }
+
+    private static EntityManagerFactory getEntityManagerFactory2(){
+        return new HibernatePersistenceConfiguration("jpa-demo")
+                .managedClass(Customer.class)
+                .jdbcUrl("jdbc:mysql://localhost:3306/jpa")
+                .jdbcCredentials("root", "mysql")
+                .jdbcDriver("com.mysql.cj.jdbc.Driver")
+                .schemaToolingAction(Action.UPDATE)
+                .showSql( true, true, true)
+                .createEntityManagerFactory();
+    }
+
+    private static EntityManagerFactory getEntityManagerFactory3(){
+        return new HibernatePersistenceConfiguration("jpa-demo", Main.class)
+                .jdbcUrl("jdbc:mysql://localhost:3306/jpa")
+                .jdbcCredentials("root", "mysql")
+                .jdbcDriver("com.mysql.cj.jdbc.Driver")
+                .schemaToolingAction(Action.UPDATE)
+                .showSql( true, true, true)
+                .createEntityManagerFactory();
     }
 }

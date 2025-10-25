@@ -45,6 +45,16 @@
             <version>5.14.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.hibernate.orm</groupId>
+            <artifactId>hibernate-scan-jandex</artifactId>
+            <version>7.1.4.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>io.smallrye</groupId>
+            <artifactId>jandex</artifactId>
+            <version>3.5.1</version>
+        </dependency>
     </dependencies>
 
 </project>
