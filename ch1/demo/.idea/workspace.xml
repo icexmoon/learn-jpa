@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0c4108f8-8b98-4bdd-8fa2-7a66e3da0d12" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch2/demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch2/demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ch2/demo/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch2/demo/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch7/hibernate-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/pom.xml" afterDir="false" />
@@ -44,6 +45,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.HibernateTests.test.executor": "Run",
+    "JUnit.HibernateTests.testBaseEntity.executor": "Run",
+    "JUnit.HibernateTests.testFind.executor": "Run",
+    "JUnit.HibernateTests.testNoVersion.executor": "Run",
+    "JUnit.HibernateTests.testSchoolUpdate.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -67,23 +73,64 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.icexmoon.Main" />
+  <component name="RunManager" selected="JUnit.HibernateTests.testSchoolUpdate">
+    <configuration name="HibernateTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.icexmoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HibernateTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateTests.testBaseEntity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HibernateTests" />
+      <option name="METHOD_NAME" value="testBaseEntity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateTests.testFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HibernateTests" />
+      <option name="METHOD_NAME" value="testFind" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateTests.testNoVersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HibernateTests" />
+      <option name="METHOD_NAME" value="testNoVersion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateTests.testSchoolUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HibernateTests" />
+      <option name="METHOD_NAME" value="testSchoolUpdate" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Main" />
+        <item itemvalue="JUnit.HibernateTests.testSchoolUpdate" />
+        <item itemvalue="JUnit.HibernateTests.testBaseEntity" />
+        <item itemvalue="JUnit.HibernateTests.testNoVersion" />
+        <item itemvalue="JUnit.HibernateTests.testFind" />
+        <item itemvalue="JUnit.HibernateTests.test" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +153,7 @@
       <workItem from="1759490145738" duration="7163000" />
       <workItem from="1759631233938" duration="880000" />
       <workItem from="1761372626527" duration="2080000" />
+      <workItem from="1761377517769" duration="7703000" />
     </task>
     <servers />
   </component>

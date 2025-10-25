@@ -6,6 +6,11 @@
         <!-- 指定ORM框架实现了 PersistenceProvider 接口的实现类 -->
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <class>cn.icexmoon.entity.Customer</class>
+        <class>cn.icexmoon.entity.ClassItem</class>
+        <class>cn.icexmoon.entity.Student</class>
+        <class>cn.icexmoon.entity.StudentClass</class>
+        <class>cn.icexmoon.entity.Book</class>
+        <class>cn.icexmoon.entity.School</class>
         <properties>
             <!-- 数据库连接设置 -->
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
