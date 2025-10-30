@@ -12,6 +12,8 @@
         <class>cn.icexmoon.entity.o2o.Manager</class>
         <class>cn.icexmoon.entity.m2m.Student</class>
         <class>cn.icexmoon.entity.m2m.Course</class>
+        <class>cn.icexmoon.entity.o2o.Employee</class>
+        <class>cn.icexmoon.entity.o2o.EmployeeInfo</class>
         <properties>
             <!-- 数据库连接设置 -->
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
@@ -19,7 +21,7 @@
             <property name="jakarta.persistence.jdbc.user" value="root" />
             <property name="jakarta.persistence.jdbc.password" value="mysql" />
             <!-- ORM 框架设置 -->
-            <property name="hibernate.hbm2ddl.auto" value="update" />
+            <property name="jakarta.persistence.schema-generation.database.action" value="update"/>
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.format_sql" value="true" />
         </properties>

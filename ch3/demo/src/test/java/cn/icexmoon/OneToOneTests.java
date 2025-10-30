@@ -1,6 +1,9 @@
 package cn.icexmoon;
 
+import cn.hutool.core.date.DateTime;
 import cn.icexmoon.entity.o2o.Department;
+import cn.icexmoon.entity.o2o.Employee;
+import cn.icexmoon.entity.o2o.EmployeeInfo;
 import cn.icexmoon.entity.o2o.Manager;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
@@ -57,5 +60,14 @@ public class OneToOneTests {
     public void testFind() {
         Manager manager = entityManager.find(Manager.class, 1L);
         System.out.println(manager.getDepartment());
+    }
+
+    @Test
+    public void testAdd2() {
+        Employee employee = new Employee("张三", "zhangsan@163.com");
+        EmployeeInfo employeeInfo = new EmployeeInfo("上海", "12345678901", new DateTime("2000-01-01"));
+        employee.setEmployeeInfo(employeeInfo);
+        employeeInfo.setEmployee(employee);
+        entityManager.persist(employee);
     }
 }
