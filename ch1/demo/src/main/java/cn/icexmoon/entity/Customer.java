@@ -24,7 +24,7 @@ public class Customer {
             valueColumnName = "value",
             pkColumnValue = "customer",
             allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.TABLE, generator = "customer_id_generator")
+    @GeneratedValue
     private Long id;
     @Column(name = "last_name", length = 10, nullable = false)
     private String lastName;

@@ -2,26 +2,23 @@ package cn.icexmoon.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
-import lombok.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
- * @ClassName ClassRoom
+ * @ClassName Child
  * @Description
  * @Author icexmoon@qq.com
- * @Date 2025/10/25 下午5:03
+ * @Date 2025/10/27 下午2:14
  * @Version 1.0
  */
-@Table(name = "school")
+@Table(name = "child")
 @Entity
-@Getter
-@Setter
-@EqualsAndHashCode(callSuper = true)
-@ToString(callSuper = true)
+@Data
 @NoArgsConstructor
-public class School extends BaseEntity {
+public class ChildEntity extends RootEntity {
     private String name;
-
-    public School(String name) {
+    public ChildEntity(String name) {
         this.name = name;
     }
 }

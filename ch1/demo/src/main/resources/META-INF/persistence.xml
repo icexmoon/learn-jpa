@@ -11,6 +11,18 @@
         <class>cn.icexmoon.entity.StudentClass</class>
         <class>cn.icexmoon.entity.Book</class>
         <class>cn.icexmoon.entity.School</class>
+        <class>cn.icexmoon.entity.RootEntity</class>
+        <class>cn.icexmoon.entity.ChildEntity</class>
+        <class>cn.icexmoon.entity.Person</class>
+        <class>cn.icexmoon.entity.Car</class>
+        <class>cn.icexmoon.entity.Week</class>
+        <class>cn.icexmoon.entity.Week2</class>
+        <class>cn.icexmoon.entity.Week3</class>
+        <class>cn.icexmoon.entity.inheritance.singletable.Person2</class>
+        <class>cn.icexmoon.entity.inheritance.singletable.Author2</class>
+        <class>cn.icexmoon.entity.inheritance.joined.Person3</class>
+        <class>cn.icexmoon.entity.inheritance.joined.Author3</class>
+<!--        <class>cn.icexmoon.converter.EnumSetConverter</class>-->
         <properties>
             <!-- 数据库连接设置 -->
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
@@ -18,7 +30,7 @@
             <property name="jakarta.persistence.jdbc.user" value="root" />
             <property name="jakarta.persistence.jdbc.password" value="mysql" />
             <!-- ORM 框架设置 -->
-            <property name="jakarta.persistence.schema-generation.database.action" value="update"/>
+            <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.format_sql" value="true" />
             <property name="hibernate.highlight.sql" value="true"/>

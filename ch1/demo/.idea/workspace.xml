@@ -7,8 +7,12 @@
     <list default="true" id="0c4108f8-8b98-4bdd-8fa2-7a66e3da0d12" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/icexmoon/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/icexmoon/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/icexmoon/entity/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/icexmoon/entity/School.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HibernateTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HibernateTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch2/demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch2/demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch2/demo/src/main/java/cn/icexmoon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch2/demo/src/main/java/cn/icexmoon/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch7/hibernate-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/pom.xml" afterDir="false" />
@@ -32,6 +36,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="PerforceDirect.Settings">
+    <option name="CHARSET" value="无" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -46,10 +53,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.HibernateTests.test.executor": "Run",
+    "JUnit.HibernateTests.testArrayAttrs.executor": "Run",
     "JUnit.HibernateTests.testBaseEntity.executor": "Run",
+    "JUnit.HibernateTests.testCar.executor": "Run",
+    "JUnit.HibernateTests.testCarNotNull.executor": "Run",
+    "JUnit.HibernateTests.testCollectionAttrs.executor": "Run",
     "JUnit.HibernateTests.testFind.executor": "Run",
+    "JUnit.HibernateTests.testInheritanceJoinedTable.executor": "Run",
+    "JUnit.HibernateTests.testInheritanceSingleTable.executor": "Run",
+    "JUnit.HibernateTests.testJsonRead.executor": "Run",
     "JUnit.HibernateTests.testNoVersion.executor": "Run",
+    "JUnit.HibernateTests.testRootEntity.executor": "Run",
     "JUnit.HibernateTests.testSchoolUpdate.executor": "Run",
+    "JUnit.HibernateTests.testUUID.executor": "Run",
+    "JUnit.HibernateTests.testWeek.executor": "Run",
+    "JUnit.HibernateTests.testWeekPrint.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -73,52 +91,57 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.HibernateTests.testSchoolUpdate">
-    <configuration name="HibernateTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.icexmoon.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HibernateTests.testInheritanceJoinedTable">
+    <configuration name="HibernateTests.testArrayAttrs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HibernateTests" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="testArrayAttrs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTests.testBaseEntity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HibernateTests.testCollectionAttrs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HibernateTests" />
-      <option name="METHOD_NAME" value="testBaseEntity" />
+      <option name="METHOD_NAME" value="testCollectionAttrs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTests.testFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HibernateTests.testInheritanceJoinedTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HibernateTests" />
-      <option name="METHOD_NAME" value="testFind" />
+      <option name="METHOD_NAME" value="testInheritanceJoinedTable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTests.testNoVersion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HibernateTests.testInheritanceSingleTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HibernateTests" />
-      <option name="METHOD_NAME" value="testNoVersion" />
+      <option name="METHOD_NAME" value="testInheritanceSingleTable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTests.testSchoolUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HibernateTests.testUUID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HibernateTests" />
-      <option name="METHOD_NAME" value="testSchoolUpdate" />
+      <option name="METHOD_NAME" value="testUUID" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HibernateTests.testSchoolUpdate" />
-        <item itemvalue="JUnit.HibernateTests.testBaseEntity" />
-        <item itemvalue="JUnit.HibernateTests.testNoVersion" />
-        <item itemvalue="JUnit.HibernateTests.testFind" />
-        <item itemvalue="JUnit.HibernateTests.test" />
+        <item itemvalue="JUnit.HibernateTests.testInheritanceJoinedTable" />
+        <item itemvalue="JUnit.HibernateTests.testInheritanceSingleTable" />
+        <item itemvalue="JUnit.HibernateTests.testCollectionAttrs" />
+        <item itemvalue="JUnit.HibernateTests.testArrayAttrs" />
+        <item itemvalue="JUnit.HibernateTests.testUUID" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +176,12 @@
       <workItem from="1759490145738" duration="7163000" />
       <workItem from="1759631233938" duration="880000" />
       <workItem from="1761372626527" duration="2080000" />
-      <workItem from="1761377517769" duration="7703000" />
+      <workItem from="1761377517769" duration="9613000" />
+      <workItem from="1761533911161" duration="1262000" />
+      <workItem from="1761544783727" duration="20000" />
+      <workItem from="1761545477261" duration="13327000" />
+      <workItem from="1761615395897" duration="162000" />
+      <workItem from="1761817372375" duration="4286000" />
     </task>
     <servers />
   </component>
