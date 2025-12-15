@@ -22,6 +22,39 @@
         <class>cn.icexmoon.entity.inheritance.singletable.Author2</class>
         <class>cn.icexmoon.entity.inheritance.joined.Person3</class>
         <class>cn.icexmoon.entity.inheritance.joined.Author3</class>
+        <class>cn.icexmoon.entity.dbmap.Customer2</class>
+        <class>cn.icexmoon.entity.dbmap.Customer3</class>
+        <class>cn.icexmoon.entity.dbmap.Book2</class>
+        <class>cn.icexmoon.entity.dbmap.Author5</class>
+        <class>cn.icexmoon.entity.jointable.Publisher3</class>
+        <class>cn.icexmoon.entity.jointable.Book3</class>
+        <class>cn.icexmoon.entity.jointable.Course2</class>
+        <class>cn.icexmoon.entity.jointable.Student2</class>
+        <class>cn.icexmoon.entity.joincolumn.ClassRoom3</class>
+        <class>cn.icexmoon.entity.joincolumn.Student3</class>
+        <class>cn.icexmoon.entity.column.Book4</class>
+        <class>cn.icexmoon.entity.joincolumn.Book5</class>
+        <class>cn.icexmoon.entity.joincolumn.BookWindow5</class>
+        <class>cn.icexmoon.entity.joincolumn.BookHistory5</class>
+        <class>cn.icexmoon.entity.joincolumn.BookHistoryDetail5</class>
+        <class>cn.icexmoon.entity.primarykey.Author6</class>
+        <class>cn.icexmoon.entity.primarykey.Person6</class>
+        <class>cn.icexmoon.entity.columnlength.Book6</class>
+        <class>cn.icexmoon.entity.columnlength.Book7</class>
+        <class>cn.icexmoon.entity.columnlength.Book8</class>
+        <class>cn.icexmoon.entity.columnlength.Book9</class>
+<!--        <class>cn.icexmoon.entity.embeddable.Person7</class>-->
+        <class>cn.icexmoon.entity.embeddable.Person8</class>
+        <class>cn.icexmoon.entity.formula.Order</class>
+        <class>cn.icexmoon.entity.derivedid.BookCategory</class>
+        <class>cn.icexmoon.entity.derivedid.BookSubCategory</class>
+        <class>cn.icexmoon.entity.derivedid.BookCategory2</class>
+        <class>cn.icexmoon.entity.derivedid.BookSubCategory2</class>
+        <class>cn.icexmoon.entity.derivedid.BookCategory3</class>
+        <class>cn.icexmoon.entity.derivedid.BookSubCategory3</class>
+        <class>cn.icexmoon.entity.constraint.Student5</class>
+        <class>cn.icexmoon.entity.constraint.Course5</class>
+        <class>cn.icexmoon.entity.constraint.StudentCourse5</class>
 <!--        <class>cn.icexmoon.converter.EnumSetConverter</class>-->
         <properties>
             <!-- 数据库连接设置 -->
@@ -30,7 +63,7 @@
             <property name="jakarta.persistence.jdbc.user" value="root" />
             <property name="jakarta.persistence.jdbc.password" value="mysql" />
             <!-- ORM 框架设置 -->
-            <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
+            <property name="jakarta.persistence.schema-generation.database.action" value="update"/>
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.format_sql" value="true" />
             <property name="hibernate.highlight.sql" value="true"/>
