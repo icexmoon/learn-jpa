@@ -1,0 +1,26 @@
+package com.example.demo.entity;
+
+import jakarta.persistence.*;
+import lombok.Data;
+import lombok.ToString;
+
+/**
+ * @ClassName Car2
+ * @Description
+ * @Author icexmoon@qq.com
+ * @Date 2025/12/15 上午11:16
+ * @Version 1.0
+ */
+@Entity
+@Table(name = "car2")
+@Data
+@ToString
+@NamedQuery(name = "Car2.findByBrand", query = "from Car2 where brand like concat('%',:brand,'%')")
+@NamedQuery(name = "#findByOwner", query = "from Car2 where owner like concat('%',:owner,'%')")
+public class Car2 {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String brand;
+    private String owner;
+}
