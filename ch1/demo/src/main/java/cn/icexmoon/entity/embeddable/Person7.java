@@ -11,7 +11,7 @@ import org.hibernate.annotations.Struct;
  * @Date 2025/12/12 下午3:46
  * @Version 1.0
  */
-@Entity
+//@Entity
 @Table(name = "person7")
 @Data
 public class Person7 {

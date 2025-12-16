@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0c4108f8-8b98-4bdd-8fa2-7a66e3da0d12" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HibernateTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HibernateTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/icexmoon/entity/embeddable/Person7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/icexmoon/entity/embeddable/Person7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch2/demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch2/demo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch2/demo/src/main/java/cn/icexmoon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch2/demo/src/main/java/cn/icexmoon/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch7/hibernate-demo/.idea/encodings.xml" afterDir="false" />
@@ -46,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.DbTests.test.executor": "Run",
     "JUnit.HibernateTests.test.executor": "Run",
     "JUnit.HibernateTests.testArrayAttrs.executor": "Run",
     "JUnit.HibernateTests.testBaseEntity.executor": "Run",
@@ -111,14 +112,24 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.icexmoon.entity" />
       <recent name="cn.icexmoon.entity.derivedid" />
       <recent name="cn.icexmoon.entity.embeddable" />
       <recent name="cn.icexmoon.entity.columnlength" />
       <recent name="cn.icexmoon.entity.dbmap" />
-      <recent name="cn.icexmoon.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HibernateTests.testConstraint">
+  <component name="RunManager" selected="JUnit.DbTests.test">
+    <configuration name="DbTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DbTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HibernateTests.testConstraint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="PACKAGE_NAME" value="" />
@@ -159,23 +170,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTests.testFormula2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HibernateTests" />
-      <option name="METHOD_NAME" value="testFormula2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DbTests.test" />
         <item itemvalue="JUnit.HibernateTests.testConstraint" />
         <item itemvalue="JUnit.HibernateTests.testDerivedId3" />
         <item itemvalue="JUnit.HibernateTests.testDerivedId2" />
         <item itemvalue="JUnit.HibernateTests.testDerivedId" />
-        <item itemvalue="JUnit.HibernateTests.testFormula2" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +212,9 @@
       <workItem from="1765500697126" duration="15441000" />
       <workItem from="1765532035049" duration="3060000" />
       <workItem from="1765758847273" duration="5716000" />
+      <workItem from="1765764612355" duration="58000" />
+      <workItem from="1765767363012" duration="1056000" />
+      <workItem from="1765845160423" duration="1528000" />
     </task>
     <servers />
   </component>
